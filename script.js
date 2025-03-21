@@ -9,7 +9,6 @@ let getVal;
     };
     function btnClean(){
         secondInp.value = '';
-        console.log(secondInp);
     };
     function del() {
         secondInp.value = secondInp.value.slice(0, -1);
